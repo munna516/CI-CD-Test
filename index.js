@@ -20,6 +20,10 @@ app.get("/test2", (req, res) => {
     res.send("Hello This is the  test2");
 });
 
+app.get("/test3", (req, res) => {
+  res.send("Hello This is the  test3");
+});
+
 // Start server
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
